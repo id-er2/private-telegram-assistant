@@ -1,0 +1,31 @@
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Personal conversation history, saved facts, lab state, and backups
+memory/
+state/
+*memory*.json
+owner_state*.json
+*.bak
+*.tmp
+
+# Logs and local editor metadata
+*.log
+logs/
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
